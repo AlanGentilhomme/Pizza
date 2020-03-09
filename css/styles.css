@@ -1,0 +1,35 @@
+
+
+body{
+    font-family: 'Forum', cursive;}
+
+.bg-black75 {
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.bg-black {
+    background: #000;
+}
+
+.rouge{
+    background: rgba(155, 18, 18, 0.918);
+ }
+ .noir{
+    background: rgb(56,48,48)
+ }
+ 
+ .policeblanc{
+    color: white
+ }
+
+ @media only screen and (min-width:480px) {
+    #map{
+        display: flex;
+        justify-content: space-around;
+    }
+ }
+
+ .vh{
+    height: 100VH;
+    width: 100%
+}
